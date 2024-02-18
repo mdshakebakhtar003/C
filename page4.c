@@ -1,11 +1,17 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 
-int main() {
-    for(int i=1;i<=4;i++){
-        for(int j=1;j<=4;j++){
-        printf("* ");
-    }printf("\n");}
+void greet() {
+    printf("hello \n");
+    printf("how are you?\n");
+}
+    int main(){
+                greet();
+                greet();
+                greet();
+    
+   
+    printf("Hello world\n");
 
     return 0;
 }
