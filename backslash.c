@@ -1,10 +1,10 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 
-int main() {
-   char arr[11]={'h','e','l','l','o',' ','w','o','r','l','d'};
-   for(int i=0;i<11;i++){
+int main() {int i=0;
+   char arr[]="hello";
+  while(arr[i]!='\0'){
        printf("%c",arr[i]);
-   }
+        i++;}
     return 0;
 }
